@@ -1,0 +1,7 @@
+<p>
+  <%= @region %>についての検索結果
+</p>
+
+<% @records.each do |record| %>
+  <%= record.deutsch_name %>（<%= record.name %>）
+<% end %>
